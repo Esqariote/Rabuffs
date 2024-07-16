@@ -188,10 +188,13 @@ RAB_Buffs = {
 	jujuguile = { name = "Juju Guile", identifiers = { { tooltip = "Juju Guile", texture = "INV_Misc_MonsterScales_13", spellId = 16327 }, { tooltip = "Juju Guile", texture = "INV_Potion_92" } }, grouping = "Melee", buffFunc = RAB_UseItem, itemId = 12458, useOn = 'player' },
 	bogling = { name = "Bogling Root", identifiers = { { tooltip = "Fury of the Bogling", texture = "Spell_Nature_Strength", spellId = 5665 } }, buffFunc = RAB_UseItem, itemId = 5206 },
 	roids = { name = "R.O.I.D.S.", identifiers = { { tooltip = "Rage of Ages", texture = "Spell_Nature_Strength", spellId = 10667 } }, grouping = "Melee", buffFunc = RAB_UseItem, itemId = 8410 },
-	scorpok = { name = "Ground Scorpok Assay", identifiers = { { tooltip = "Strike of the Scorpok", texture = "Spell_Nature_ForceOfNature", spellId = 10669 } }, buffFunc = RAB_UseItem, itemId = 8412 },
+	scorpok = { name = "Ground Scorpok Assay", identifiers = { { tooltip = "Strike of the Scorpok", texture = "Spell_Nature_ForceOfNature", spellId = 10669 } }, grouping = "Melee", buffFunc = RAB_UseItem, itemId = 8412 },
 	oilofimmolation = { name = "Oil of Immolation", identifiers = { { tooltip = "Fire Shield", texture = "Spell_Fire_Immolation", spellId = 11350 } }, grouping = "Melee", buffFunc = RAB_UseItem, itemId = 8956 },
 
 	anyagi = { name = "Mongoose/Greater Agility", identifiers = { { tooltip = "Elixir of the Mongoose", texture = "INV_Potion_32", spellId = 17538 }, { tooltip = "Elixir of Greater Agility", texture = "INV_Potion_94" } }, grouping = "Melee" },
+	anystr = { name = "Giants/Juju Power", identifiers = { { tooltip = "Elixir of Giants", texture = "INV_Potion_61", spellId = 11405 }, { tooltip = "Juju Power", texture = "INV_Misc_MonsterScales_11" } }, grouping = "Melee" },
+	anyap = { name = "Firewater/Juju Might", identifiers = { { tooltip = "Winterfall Firewater", texture = "INV_Potion_92", spellId = 17038 }, { tooltip = "Juju Might", texture = "INV_Misc_MonsterScales_07" } }, grouping = "Melee" },
+	anyblast = { name = "R.O.I.D.S./Scorpok", identifiers = { { tooltip = "Rage of Ages", texture = "Spell_Nature_Strength", spellId = 10667 }, { tooltip = "Strike of the Scorpok", texture = "Spell_Nature_ForceOfNature" } }, grouping = "Melee" },
 
 	-- Weapon consumes --
 	brillmanaoil = { grouping = "Weapon", name = "Brilliant Mana Oil", identifiers = {}, type = "wepbuffonly", buffFunc = RAB_UseItem, itemId = 20748, useOn = 'weapon' },
